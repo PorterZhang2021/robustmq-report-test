@@ -1,0 +1,23 @@
+{
+  "run_id": "baseline-chaos-test-closure-minimal-20260621",
+  "started_at": "2026-06-21T00:00:00Z",
+  "finished_at": "2026-06-21T00:00:10Z",
+  "scenarios": [
+    {
+      "scenario": "broker-kill-single",
+      "sdk": "baseline",
+      "passed": true,
+      "sent": 10,
+      "lost": 0,
+      "p99_ms": 1,
+      "duration_seconds": 10
+    }
+  ],
+  "cluster_info": {
+    "nodes": [
+      "baseline"
+    ],
+    "endpoint": "n/a"
+  },
+  "run_passed": true
+}
